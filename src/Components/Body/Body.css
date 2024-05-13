@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 5px 5px black;
+}
+.bouncingText {
+  background-color: rgb(65, 94, 110);
+  color: white;
+  font-style: italic;
+}
+.absIconCall {
+  background-color: rgb(219, 80, 93);
+
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1;
+}
+.absIconPlay {
+  background-color: rgb(219, 80, 93);
+
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 10px;
+  bottom: 90px;
+  z-index: 1;
+}
