@@ -1,0 +1,11 @@
+.blueGrad {
+  background-image: linear-gradient(rgb(28, 26, 71), rgb(4, 3, 10));
+}
+
+.txt-col {
+  font-size: 3.5vw;
+}
+
+.txt-copyright {
+  font-size: 2.5vw;
+}

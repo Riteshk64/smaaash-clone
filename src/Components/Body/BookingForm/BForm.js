@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 import "./BForm.css";
 
@@ -32,10 +31,11 @@ function BForm() {
           </div>
           <div className="col d-flex justify-content-center align-items-center ps-1">
             <select
-              class="form-select formClass"
+              className="form-select formClass"
               aria-label="Default select example"
+              defaultValue="def"
             >
-              <option selected>Mumbai - Utopia, Lower Parel</option>
+              <option value="def">Mumbai - Utopia, Lower Parel</option>
               <option>Hyderbad - Inorbit Mall</option>
               <option>Hyderbad - Nexus Mall</option>
               <option>Dwarka - Radisson Blu</option>
@@ -52,7 +52,7 @@ function BForm() {
               width="25"
               height="25"
               fill="white"
-              class="bi bi-calendar"
+              className="bi bi-calendar"
               viewBox="0 0 16 16"
             >
               <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
@@ -62,7 +62,7 @@ function BForm() {
             <input
               type="date"
               className="form-control formClass"
-              value={todayDate}
+              defaultValue={todayDate}
             />
           </div>
         </div>
@@ -74,7 +74,7 @@ function BForm() {
               width="30"
               height="30"
               fill="white"
-              class="bi bi-people-fill"
+              className="bi bi-people-fill"
               viewBox="0 0 16 16"
             >
               <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
@@ -82,10 +82,11 @@ function BForm() {
           </div>
           <div className="col d-flex justify-content-center align-items-center ps-1">
             <select
-              class="form-select formClass"
+              className="form-select formClass"
               aria-label="Default select example"
+              defaultValue="def"
             >
-              <option disabled selected>
+              <option value="def" disabled>
                 No. of Adults
               </option>
               <option>0</option>
@@ -108,7 +109,7 @@ function BForm() {
               width="30"
               height="30"
               fill="white"
-              class="bi bi-people-fill"
+              className="bi bi-people-fill"
               viewBox="0 0 16 16"
             >
               <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
@@ -116,10 +117,11 @@ function BForm() {
           </div>
           <div className="col d-flex justify-content-center align-items-center ps-1">
             <select
-              class="form-select formClass"
+              className="form-select formClass"
               aria-label="Default select example"
+              defaultValue="def"
             >
-              <option disabled selected>
+              <option value="def" disabled>
                 No. of Children
               </option>
               <option>0</option>
@@ -142,7 +144,7 @@ function BForm() {
               width="25"
               height="25"
               fill="white"
-              class="bi bi-joystick"
+              className="bi bi-joystick"
               viewBox="0 0 16 16"
             >
               <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2" />
@@ -151,10 +153,11 @@ function BForm() {
           </div>
           <div className="col d-flex justify-content-center align-items-center ps-1">
             <select
-              class="form-select formClass"
+              className="form-select formClass"
               aria-label="Default select example"
+              defaultValue="def"
             >
-              <option disabled selected>
+              <option value="def" disabled>
                 No. of Games
               </option>
               <option>1</option>
@@ -172,7 +175,7 @@ function BForm() {
               width="25"
               height="25"
               fill="white"
-              class="bi bi-clock"
+              className="bi bi-clock"
               viewBox="0 0 16 16"
             >
               <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
@@ -181,10 +184,11 @@ function BForm() {
           </div>
           <div className="col d-flex justify-content-center align-items-center ps-1">
             <select
-              class="form-select formClass"
+              className="form-select formClass"
               aria-label="Default select example"
+              defaultValue="def"
             >
-              <option disabled selected>
+              <option value="def" disabled>
                 Time slot
               </option>
               <option>12:00</option>
@@ -204,7 +208,7 @@ function BForm() {
             type="checkbox"
             id="student"
             name="student"
-            value="1"
+            defaultValue="1"
           />
           <label className="text-white"> Are you a student?</label>
         </div>

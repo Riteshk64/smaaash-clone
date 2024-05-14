@@ -3,8 +3,7 @@
 }
 .banner-text {
   position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
+  top: 5%;
   left: 10px;
   color: white;
   font-weight: bold;
@@ -34,6 +33,7 @@
   height: 70px;
   border-radius: 50%;
 
+  float: right;
   position: fixed;
   right: 10px;
   bottom: 90px;
